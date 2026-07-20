@@ -1,0 +1,66 @@
+.logo {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  font-size: 10px;
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.logo span {
+  color: darkgreen;
+}
+
+.container {
+  padding: 10px 20px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.hero input {
+  width: fit-content;
+  border: #ccc;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.hero button {
+  background-color: darkgreen;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+#profile img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+#profile {
+  border: 2px solid gray;
+  border-radius: 20px;
+  padding: 20px;
+  display: none;
+}
+
+#profile a {
+  text-decoration: none;
+  background-color: darkgreen;
+  color: white;
+  padding: 8px;
+  border-radius: 25px;
+}
